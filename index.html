@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+      
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+       
+        html {
+            scroll-behavior: smooth;
+        }
+
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            background-color: #333;
+            padding: 10px 20px;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 60px 20px;
+            margin: 20px 0;
+        }
+
+        #hero {
+    background-image: url('https://www.bing.com/th/id/OGC.2b891da0706c0bebd49cbeb70a573a9d?pid=1.7&rurl=https%3a%2f%2fstatic01.nyt.com%2fimages%2f2019%2f06%2f03%2fautossell%2f5%2f5-jumbo-v3.gif&ehk=HInQyP%2bq4iWPwWwTqFxvfGcx%2fINShoYiiA6dHjL3%2fKA%3d');
+    background-size: cover;  
+    background-position: center 20%; 
+    color: white;
+    text-align: center;
+    padding: 300px 80px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+}
+
+       
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        section p, ul {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="hero"
+    ></section>
+       
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Josna John, a passionate Full Stack Developer. I specialize in building dynamic, user-friendly applications, leveraging both frontend and backend technologies. I thrive on creating impactful solutions for real-world problems.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Amazon Clone</h3>
+            <p>This project replicates the core features of Amazon with functionalities like user authentication, product browsing, shopping cart, secure payment integration, and order tracking.</p>
+        </div>
+        <div class="project">
+            <h3>Student Management System</h3>
+            <p>A Java-based application for managing student data, including registration, course assignments, and grade tracking.</p>
+        </div>
+        <div class="project">
+            <h3>Alert System</h3>
+            <p>A Flutter app that sends real-time notifications and allows users to customize alert settings.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Full Stack Development (Frontend & Backend)</li>
+            <li>JavaScript, React, Node.js</li>
+            <li>HTML, CSS, Sass</li>
+            <li>Java, Python</li>
+            <li>Database Management (SQL, MongoDB)</li>
+            <li>Version Control (Git, GitHub)</li>
+            <li>API Development</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div>
+            <h3>Federal Institute of Science and Technology</h3>
+            <p>Bachelor of Technology in Computer Science, 2026</p>
+        </div>
+        <div>
+            <h3>Carmel Higher Secondary School, Chalakudy</h3>
+            <p>11th & 12th, 2022</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+         <!-- Google Map Embed -->
+    <div id="google-map" style="margin-top: 30px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.4664750203065!2d76.37836237479677!3d10.223910589893219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0806b961e6659d%3A0xae97e33bd3c56f3c!2sAreekkal%20Rd%2C%20Angamaly%2C%20Karukutty%2C%20Kerala%20683576!5e0!3m2!1sen!2sin!4v1734369680683!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Josna John. All rights reserved.</p>
+    </footer>
+</body>
+</html>
